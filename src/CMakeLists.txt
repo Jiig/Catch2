@@ -33,9 +33,9 @@ set(BENCHMARK_SOURCES
 SOURCE_GROUP("benchmark" FILES ${BENCHMARK_HEADERS} ${BENCHMARK_SOURCES})
 
 set(INTERNAL_HEADERS
-    ${SOURCES_DIR}/internal/catch_capture_matchers.h
+    ${SOURCES_DIR}/internal/catch_capture_matchers.hpp
     ${SOURCES_DIR}/internal/catch_container_nonmembers.hpp
-    ${SOURCES_DIR}/catch_approx.h
+    ${SOURCES_DIR}/catch_approx.hpp
     ${SOURCES_DIR}/catch_assertionhandler.h
     ${SOURCES_DIR}/catch_assertioninfo.h
     ${SOURCES_DIR}/catch_assertionresult.h
@@ -87,7 +87,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_objc_arc.hpp
     ${SOURCES_DIR}/catch_option.hpp
     ${SOURCES_DIR}/catch_output_redirect.h
-    ${SOURCES_DIR}/catch_platform.h
+    ${SOURCES_DIR}/internal/catch_platform.hpp
     ${SOURCES_DIR}/catch_polyfills.hpp
     ${SOURCES_DIR}/catch_preprocessor.hpp
     ${SOURCES_DIR}/catch_random_number_generator.h
