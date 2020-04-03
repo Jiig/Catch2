@@ -13,7 +13,7 @@
 #include <catch2/catch_result_type.h>
 #include <catch2/catch_common.h>
 #include <catch2/catch_stringref.h>
-#include <catch2/catch_assertionhandler.h>
+#include <catch2/internal/catch_assertionhandler.hpp>
 
 namespace Catch {
 

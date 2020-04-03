@@ -36,11 +36,11 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/internal/catch_capture_matchers.hpp
     ${SOURCES_DIR}/internal/catch_container_nonmembers.hpp
     ${SOURCES_DIR}/catch_approx.hpp
-    ${SOURCES_DIR}/catch_assertionhandler.h
+    ${SOURCES_DIR}/internal/catch_assertionhandler.hpp
     ${SOURCES_DIR}/catch_assertioninfo.h
     ${SOURCES_DIR}/catch_assertionresult.h
-    ${SOURCES_DIR}/catch_capture.hpp
-    ${SOURCES_DIR}/catch_clara.h
+    ${SOURCES_DIR}/internal/catch_capture.hpp
+    ${SOURCES_DIR}/internal/catch_clara.hpp
     ${SOURCES_DIR}/catch_commandline.h
     ${SOURCES_DIR}/catch_common.h
     ${SOURCES_DIR}/catch_compiler_capabilities.h
@@ -130,7 +130,7 @@ set(INTERNAL_HEADERS
 )
 set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_approx.cpp
-    ${SOURCES_DIR}/catch_assertionhandler.cpp
+    ${SOURCES_DIR}/internal/catch_assertionhandler.cpp
     ${SOURCES_DIR}/catch_assertionresult.cpp
     ${SOURCES_DIR}/internal/catch_capture_matchers.cpp
     ${SOURCES_DIR}/catch_commandline.cpp
